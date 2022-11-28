@@ -1,0 +1,2 @@
+# sampleswa
+Static Web App
