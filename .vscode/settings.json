@@ -1,0 +1,19 @@
+{
+    "tailwindCSS.includeLanguages": {
+      "typescript": "javascript", // if you are using typescript
+      "typescriptreact": "javascript" // if you are using typescript with react
+    },
+    "editor.formatOnSave": true,
+    "editor.quickSuggestions": {
+      "strings": true // forces VS Code to trigger completions when editing "string" content
+    },
+    "tailwindCSS.experimental.classRegex": [
+      "createStyledComponents[(][`|\"]([^`]*)", // tw`...`
+      "[a-zA-Z]*Class\\s?=\\s?[`|\"]([^`]*)", // tw`...`
+      "[a-zA-Z]*ClassName\\s?=\\s?[`|\"]([^`]*)", // tw`...`
+      "createStyledComponents[(][`|\"]([^`]*)", // tw`...`
+      "createStyledComponents[(][^`]+`([^`]*)`", // tw.xxx<xxx>`...`
+      "createStyledComponents\\(.*?\\).*?`([^`]*)" // tw(Component)<xxx>`...`
+    ],
+    "php.validate.executablePath": ""
+  }

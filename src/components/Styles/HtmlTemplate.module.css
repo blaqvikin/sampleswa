@@ -1,0 +1,40 @@
+.section {
+  /* min-height: 100px; */
+  @apply mb-6 overflow-hidden;
+}
+
+.heading {
+  @apply mb-2 font-bold;
+}
+
+.divider {
+  height: 2px;
+  @apply bg-black my-4;
+}
+.companyCodes div {
+  margin: 10px;
+}
+
+.border {
+  border: 1px solid black;
+  padding: 10px;
+  border-radius: 10px;
+}
+.detailsBorder {
+  border: 1px solid black;
+  padding: 5px 10px;
+  border-radius: 200px;
+  width: 100%;
+}
+
+/* .detailsBorder  p {
+} */
+
+@media print {
+  .pageN {
+    min-height: 11in;
+    /* width: 8.5in; */
+    /* background-color: "red"; */
+    margin: 0px !important;
+  }
+}

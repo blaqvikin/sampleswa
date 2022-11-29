@@ -1,0 +1,13 @@
+export { default as FAQ } from "./FAQ";
+export { default as Footer } from "./Footer";
+export { default as Header } from "./Header";
+export { default as Switch } from "./Switch";
+export { default as PrintButton } from "./PrintButton";
+export { default as FormButton } from "./FormButton";
+export { default as CustomInput } from "./CustomInput";
+export { default as UpdateColorButton } from "./UpdateColorButton";
+export { default as ColorPicker } from "./ColorPicker";
+export { default as Modal } from "./Modal";
+export { default as TourModal } from "./TourModal";
+export * from "./AllTemplates";
+export * from "./Forms";
